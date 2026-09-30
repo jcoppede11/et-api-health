@@ -1,0 +1,7 @@
+# Ejemplo de uso: una URL por línea.
+# Las URLs listadas abajo son solo de prueba/demostración, reemplazalas por tus endpoints reales.
+https://www.google.com
+https://httpstat.us/500
+https://httpstat.us/200
+https://httpstat.us/200?sleep=10000
+https://dominio-que-no-existe.dominio-invalido.xyz
