@@ -14,7 +14,7 @@ la librería estándar de Go.
 
 ```bash
 # Instalar el binario en $GOBIN / $GOPATH/bin
-go install github.com/jcoppede11/api-health/cmd/api-health@latest
+go install github.com/jcoppede11/et-api-health/cmd/api-health@latest
 ```
 
 O compilar desde el repositorio:
@@ -113,7 +113,7 @@ api-health está pensada para **smoke checks** puntuales: post-deploy, cron o un
 ### Instalación en el pipeline
 
 ```bash
-go install github.com/jcoppede11/api-health/cmd/api-health@latest
+go install github.com/jcoppede11/et-api-health/cmd/api-health@latest
 ```
 
 El binario queda en `$GOBIN` o `$GOPATH/bin`; ese directorio debe estar en el `PATH` del job.
@@ -134,7 +134,7 @@ jobs:
           go-version-file: go.mod   # en tu repo; o fijá una versión, ej. '1.25'
 
       - name: Instalar api-health
-        run: go install github.com/jcoppede11/api-health/cmd/api-health@latest
+        run: go install github.com/jcoppede11/et-api-health/cmd/api-health@latest
 
       - name: Verificar endpoints
         run: api-health -f urls.txt -timeout 10s -concurrency 5

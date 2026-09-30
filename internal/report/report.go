@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jcoppede11/api-health/internal/checker"
+	"github.com/jcoppede11/et-api-health/internal/checker"
 )
 
 // Imprime los resultados en una tabla ordenada, por estado y por URL.
