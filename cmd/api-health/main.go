@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jcoppede11/api-health/internal/checker"
-	"github.com/jcoppede11/api-health/internal/report"
-	"github.com/jcoppede11/api-health/internal/source"
+	"github.com/jcoppede11/et-api-health/internal/checker"
+	"github.com/jcoppede11/et-api-health/internal/report"
+	"github.com/jcoppede11/et-api-health/internal/source"
 )
 
 func main() {

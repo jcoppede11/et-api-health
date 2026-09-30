@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jcoppede11/api-health/internal/checker"
+	"github.com/jcoppede11/et-api-health/internal/checker"
 )
 
 func sampleResults() []checker.Result {
