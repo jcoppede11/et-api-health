@@ -1,0 +1,20 @@
+# Binario compilado
+/api-health
+/api-health.exe
+
+# Binarios de test y perfiles de cobertura
+*.test
+*.out
+coverage.txt
+
+# Artifacts
+/dist/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios/config de editores e IDEs
+.idea/
+.vscode/
+*.swp
