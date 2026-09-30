@@ -1,5 +1,6 @@
 # api-health
 
+[![CI](https://github.com/jcoppede11/et-api-health/actions/workflows/ci.yml/badge.svg)](https://github.com/jcoppede11/et-api-health/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 CLI tool en Go que verifica la salud de múltiples endpoints HTTP de forma
